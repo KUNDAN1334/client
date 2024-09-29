@@ -1,0 +1,32 @@
+/* Scheme list styling */
+.schemes-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .scheme-card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex-basis: calc(70% - 20px); /* Increased width */
+  }
+  
+  /* Adjust the heading and spacing */
+  .scheme-card h3 {
+    color: #4CAF50;
+    margin-bottom: 10px;
+  }
+  
+  .scheme-card p {
+    margin: 5px 0;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .scheme-card {
+      flex-basis: 100%;
+    }
+  }
+  
